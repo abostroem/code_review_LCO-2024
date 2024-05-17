@@ -32,3 +32,11 @@ pyplot.legend(['Column 800', 'Mean'])
 pyplot.title('Plot of Column 800 Values and Mean')
 pyplot.xlabel('Pixels')
 
+#Moira changes
+pyplot.figure()
+pyplot.plot(np.arange(1024), col3)
+mean = np.mean(col3)/2
+pyplot.axhline(mean)/2
+pyplot.legend(['Column 800', '1/2 Mean'])
+pyplot.title('Plot of Column 800 Values and 1/2*Mean')
+pyplot.xlabel('Pixels')
