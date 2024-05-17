@@ -32,3 +32,10 @@ pyplot.legend(['Column 800', 'Mean'])
 pyplot.title('Plot of Column 800 Values and Mean')
 pyplot.xlabel('Pixels')
 
+#este changes
+pyplot.plot(np.arange(1024), col3*3)
+mean = np.mean(col3)*3
+pyplot.axhline(mean)*3
+pyplot.legend(['Column 800', '3 Mean'])
+pyplot.title('Plot of Column 800 Values and 3 Mean')
+pyplot.xlabel('Pixels')
